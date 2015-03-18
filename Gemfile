@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.0'
 
 gem 'rails', '~> 4.2'
-gem 'pg'
+
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
@@ -39,6 +39,7 @@ group :development do
   gem 'bullet'
   gem 'spring'
   gem 'rubocop'
+  gem 'sqlite3'
 end
 
 group :test do
@@ -55,4 +56,5 @@ group :production do
   gem 'rails_12factor'
   gem 'sentry-raven'
   gem 'newrelic_rpm'
+  gem 'pg'
 end
